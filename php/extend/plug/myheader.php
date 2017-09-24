@@ -15,6 +15,7 @@ use think\Request;
 							 	];
  	static public function setheader()
  	{
+ 		p(Request::instance()->header());
  		  $ori = Request::instance()->header()['origin'];
  		  if(in_array($ori, self::$originarr)){
  		  	 header('Access-Control-Allow-Origin:'.$ori); 
