@@ -20,7 +20,7 @@
         <input class="form-control uname" id="username" type="text" placeholder="请输入登录账号">
         <input class="form-control pword m-b" id="password" type="password" placeholder="请输入登录密码">
         <input id="captcha" class="form-control ctcha" type="text" placeholder="请输入验证码">
-        <img class="code" alt="验证码" id="captchahit" src="index.php/Base/verify?timestamp='+Date.parse(new Date())" onclick="this.src='index.php/Base/verify?timestamp='+Date.parse(new Date())" style="width: 195px;">
+        <img class="code" alt="验证码" id="captchahit" src="admin.php/Base/verify?timestamp='+Date.parse(new Date())" onclick="this.src='admin.php/Base/verify?timestamp='+Date.parse(new Date())" style="width: 195px;">
         <a href="register.html">注册</a>
         <div class="btn btn-success btn-block loginBtn">登录</div>
         <div class="signup-footer">
@@ -42,7 +42,7 @@
                 captcha:c
             };
             $.ajax({
-                url:'index.php/Base/login',
+                url:'admin.php/Base/login',
                 type:"POST",
                  xhrFields: {
                     withCredentials: true
@@ -59,7 +59,7 @@
                   } else {
                     layer.msg(h.msg); 
                   }
-                   $('#captchahit').attr('src','index.php/Base/verify?timestamp='+Date.parse(new Date()));
+                   $('#captchahit').attr('src','admin.php/Base/verify?timestamp='+Date.parse(new Date()));
                 }
             });
         });
