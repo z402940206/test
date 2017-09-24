@@ -10,26 +10,26 @@ class Init extends Controller
     public function _initialize()
     { 
     // myheader::setheader();  
-      //$v = (object)['uuid'=>''];
-      //  try{  
-      //     if(!isset($_GET['token'])){
-      //       echo json_encode(['code'=>'0','msg'=>'token undefine']);
-      //       exit();
-      //       }
-      //     $v = explaintoken($_GET['token']);    
-      //    }catch(\Exception $e){
-      //   echo json_encode(['code'=>'-1','msg'=>'登录过期']);
-      //   exit();
-      // }  
+      $v = (object)['uuid'=>''];
+       try{  
+          // if(!isset($_GET['token'])){
+          //   echo json_encode(['code'=>'0','msg'=>'token undefine']);
+          //   exit();
+          //   }
+          $v = explaintoken($_GET['token']);    
+         }catch(\Exception $e){
+        echo json_encode(['code'=>'-1','msg'=>'登录过期']);
+        exit();
+      }  
       
         
 
 
 
-// if(!cache($v->uuid)){ 
-//               echo json_encode(['code'=>'-1','msg'=>'登录过期']);
-//               exit();
-//          }
+if(!cache($v->uuid)){ 
+              echo json_encode(['code'=>'-1','msg'=>'登录过期']);
+              exit();
+         }
 
          
           // }else{
