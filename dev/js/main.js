@@ -2174,7 +2174,7 @@ index:{
                     prevButton: '.swiper-button-prev',
                     autoHeight: true,
                 });
-            },3000);
+            },4000);
         });
         sco.com_list.params.codeid = fac.getcd(sco,'c1');
         sco.com_list.params.diarytype = 1;
