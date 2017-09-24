@@ -808,25 +808,25 @@ $scope.we = '';
 
   YS('bootstrap');
   YS('form');
-  YS('qqface');
    YS('laypage');
    YS('swiper.min');
    YS('myjs');
    YS('myjsone.min');
    YS('content');
-   YS('fullCalendar');
    YS('main2048');
    YS('jwe');
+  
    setTimeout(function(){
-        YS('laydate');
-      },1000);
   YS('slimScroll',function() {
+   YS('fullCalendar');
         $('.sidebar-collapse').slimScroll({
             height: '100%',
             railOpacity: 0.9,
             alwaysVisible: false
         }); 
   });
+        YS('laydate');
+      },1000);
   //  YS('shCircleLoader',function() {
   //   $('#loader').shCircleLoader({color:'#2AA2D4'});
   // });
