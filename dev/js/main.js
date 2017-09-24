@@ -53,12 +53,8 @@ $scope.we = '';
   YS('form');
    YS('laypage');
    YS('swiper.min');
-   YS('myjs');
-   YS('myjsone.min');
    YS('content');
-   YS('main2048');
-   YS('jwe');
-  
+
    setTimeout(function(){
   YS('slimScroll',function() {
    YS('fullCalendar');
@@ -69,7 +65,7 @@ $scope.we = '';
         }); 
   });
         YS('laydate');
-      },1000);
+      },2000);
   //  YS('shCircleLoader',function() {
   //   $('#loader').shCircleLoader({color:'#2AA2D4'});
   // });
