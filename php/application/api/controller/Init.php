@@ -18,7 +18,7 @@ class Init extends Controller
           //   }
           $v = explaintoken($_GET['token']);    
          }catch(\Exception $e){
-        echo json_encode(['code'=>'-1','msg'=>'登录过期']);
+        echo json_encode(['code'=>'-2','msg'=>'登录过期']);
         exit();
       }  
       
@@ -27,7 +27,7 @@ class Init extends Controller
 
 
 if(!cache($v->uuid)){ 
-              echo json_encode(['code'=>'-1','msg'=>'登录过期']);
+              echo json_encode(['code'=>'-3','msg'=>'登录过期']);
               exit();
          }
 
