@@ -2719,7 +2719,6 @@ games:{
             $("[name='game']").addClass('none');
             $("[name='game']").eq(a).removeClass('none');
             setTimeout(function(){
-              debugger;
                 if(a==0||$.trim(a)==''){
                     //2048
                     prepareForMobile();
