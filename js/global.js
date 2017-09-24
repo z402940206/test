@@ -1,4 +1,4 @@
-window.root ='index.php/'; //'http://api.yushan.com/';/*http://api.yushan.com/*/
+window.root ='http://119.23.104.28/index.php/'; //'http://api.yushan.com/';/*http://api.yushan.com/*/
 window.debugflag = 0;//1调试模式，0上线模式
 window.lg = null;
 define('conf', function(require, exports, module) {
