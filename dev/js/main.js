@@ -58,12 +58,12 @@ $scope.we = '';
         }); 
   });
    YS('swiper.min');
+   setTimeout(function(){
   YS('form');
    YS('laypage');
    YS('myjs');
    YS('myjsone.min');
    YS('content');
-   setTimeout(function(){
         YS('laydate');
         YS('qqface');
          YS('main2048');
@@ -2174,7 +2174,7 @@ index:{
                     prevButton: '.swiper-button-prev',
                     autoHeight: true,
                 });
-            },2000);
+            },1500);
         });
         sco.com_list.params.codeid = fac.getcd(sco,'c1');
         sco.com_list.params.diarytype = 1;
