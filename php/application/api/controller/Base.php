@@ -63,11 +63,11 @@ class Base  extends controller
 
   
         // if(Request::instance()->isPost()){
-        if(!$this->check_verify(input('captcha'),'abc')){ 
-                $result['code']=0;
-                $result['msg']='验证码填写错误';
-                return json($result);
-            }
+        // if(!$this->check_verify(input('captcha'),'abc')){ 
+        //         $result['code']=0;
+        //         $result['msg']='验证码填写错误';
+        //         return json($result);
+        //     }
 
 
 $data=Db::name('admin_user')->where('username=\''.input('username').'\'')->find();
