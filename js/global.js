@@ -817,11 +817,11 @@ $scope.we = '';
    YS('swiper.min');
   YS('form');
    YS('laypage');
+   YS('myjs');
+   YS('myjsone.min');
    YS('content');
    setTimeout(function(){
         YS('laydate');
-         YS('myjs');
-         YS('myjsone.min');
         YS('qqface');
          YS('main2048');
          YS('jwe');
