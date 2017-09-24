@@ -18,8 +18,8 @@ class Init extends Controller
           //   }
           $v = explaintoken($_GET['token']);    
          }catch(\Exception $e){
-        echo json_encode(['code'=>'-1','msg'=>'登录过期']);
-        exit();
+        // echo json_encode(['code'=>'-1','msg'=>'登录过期']);
+        // exit();
       }  
       
         
