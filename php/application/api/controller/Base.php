@@ -69,7 +69,7 @@ class Base  extends controller
         //         return json($result);
         //     }
 
-return json(123);
+
 $data=Db::name('admin_user')->where('username=\''.input('username').'\'')->find();
 
                 if(!$data){ 
