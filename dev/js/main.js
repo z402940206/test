@@ -50,12 +50,6 @@ $scope.we = '';
 // }
 
   YS('bootstrap');
-  YS('form');
-   YS('laypage');
-   YS('swiper.min');
-   YS('myjs');
-   YS('myjsone.min');
-   YS('content');
   YS('slimScroll',function() {
         $('.sidebar-collapse').slimScroll({
             height: '100%',
@@ -63,6 +57,12 @@ $scope.we = '';
             alwaysVisible: false
         }); 
   });
+   YS('swiper.min');
+  YS('form');
+   YS('laypage');
+   YS('myjs');
+   YS('myjsone.min');
+   YS('content');
    setTimeout(function(){
         YS('laydate');
         YS('qqface');
