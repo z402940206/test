@@ -9,7 +9,8 @@ use think\Request;
  class myheader 
  {
  	static public $originarr = [
-							 	'http://newtemp.yushan.com'
+							 	'http://newtemp.yushan.com',
+							 	'http://chenchen.wms.cn',
 							 	];
  	static public function setheader()
  	{
