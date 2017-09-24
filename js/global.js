@@ -3493,7 +3493,7 @@ games:{
                     gameStart();
                     //英雄方块
                 }
-            },1000);
+            },100);
         });
         $(document).keydown( function( event ){
             event.preventDefault();
