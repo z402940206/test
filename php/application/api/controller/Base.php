@@ -24,7 +24,7 @@ class Base  extends controller
      */
     public function verify(){
       //header('Access-Control-Allow-Origin:http://admin.yushan.com');
-       echo "12345678";
+
         $Verify = new \org\Captcha(config('captcha'));
         // $_GET['imageW']?$Verify->imageW=$_GET['imageW']:'';
         // $_GET['imageH']?$Verify->imageH=$_GET['imageH']:'';
