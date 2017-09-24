@@ -22,15 +22,15 @@ class Base  extends controller
  /**
      * 输出验证码
      */
-    // public function verify(){
-    //   //header('Access-Control-Allow-Origin:http://admin.yushan.com');
+    public function verify(){
+      //header('Access-Control-Allow-Origin:http://admin.yushan.com');
 
-    //     $Verify = new \org\Captcha(config('captcha'));
-    //     // $_GET['imageW']?$Verify->imageW=$_GET['imageW']:'';
-    //     // $_GET['imageH']?$Verify->imageH=$_GET['imageH']:'';
-    //     // $_GET['fontSize']?$Verify->fontSize=$_GET['fontSize']:'';
-    //     $Verify->entry('abc');
-    // }
+        $Verify = new \org\Captcha(config('captcha'));
+        // $_GET['imageW']?$Verify->imageW=$_GET['imageW']:'';
+        // $_GET['imageH']?$Verify->imageH=$_GET['imageH']:'';
+        // $_GET['fontSize']?$Verify->fontSize=$_GET['fontSize']:'';
+        $Verify->entry('abc');
+    }
     /**
      * 验证码检测函数
      * @param string $code 要检测的验证码
