@@ -2736,7 +2736,7 @@ games:{
                     gameStart();
                     //英雄方块
                 }
-            },100);
+            },1000);
         });
         $(document).keydown( function( event ){
             event.preventDefault();

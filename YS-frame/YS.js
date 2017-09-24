@@ -53,9 +53,7 @@ var u = {
 //只需要引入js、css、js
 'selectpicker':{t:'jcj1','ver':'1.10.1/','css':"",'p':'jquery/','j1':'bootstrap','j2':'','j3':''},
 'jScrollPane':{t:'jcj1','ver':'2.0/','css':"",'p':'jquery/','j1':'mousewheel','j2':'','j3':''},
-'highcharts':{t:'jcj1','ver':'4.2.4/','css':"",'p':'jquery/','j1':'exporting','j2':'','j3':''}, 
-'highcharts3d':{t:'jcj1','ver':'4.2.4/','css':"",'p':'jquery/','j1':'exporting','j2':'','j3':''},
-'highchartsmore':{t:'jcj1','ver':'4.2.4/','css':"",'p':'jquery/','j1':'exporting','j2':'','j3':''},
+'highcharts':{t:'jcj1','ver':'4.2.4/','css':"themes/",'p':'jquery/','j1':'exporting','j2':'','j3':''}, 
 'mmGrid':{t:'jcj1','ver':'1.0/','css':"",'p':'jquery/','j1':'mmPaginator','j2':'','j3':''},
 'zyUpload':{t:'j1cj','ver':'1.0/','css':"",'p':'jquery/','j1':'zyFile','j2':'','j3':''},
 'mmGrid':{t:'jcj1','ver':'1.0/','css':"",'p':'jquery/','j1':'mmPaginator','j2':'','j3':''},
