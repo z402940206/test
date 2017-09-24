@@ -69,7 +69,7 @@ $scope.we = '';
          YS('main2048');
          YS('jwe');
          YS('fullCalendar');
-      },3000);
+      },2000);
   //  YS('shCircleLoader',function() {
   //   $('#loader').shCircleLoader({color:'#2AA2D4'});
   // });
