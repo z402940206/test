@@ -51,21 +51,25 @@ $scope.we = '';
 
   YS('bootstrap');
   YS('form');
+  YS('qqface');
    YS('laypage');
    YS('swiper.min');
+   YS('myjs');
+   YS('myjsone.min');
    YS('content');
-
-   setTimeout(function(){
-  YS('slimScroll',function() {
+   YS('main2048');
+   YS('jwe');
    YS('fullCalendar');
+   setTimeout(function(){
+        YS('laydate');
+      },1000);
+  YS('slimScroll',function() {
         $('.sidebar-collapse').slimScroll({
             height: '100%',
             railOpacity: 0.9,
             alwaysVisible: false
         }); 
   });
-        YS('laydate');
-      },2000);
   //  YS('shCircleLoader',function() {
   //   $('#loader').shCircleLoader({color:'#2AA2D4'});
   // });
@@ -2170,7 +2174,7 @@ index:{
                     prevButton: '.swiper-button-prev',
                     autoHeight: true,
                 });
-            },8000);
+            },2000);
         });
         sco.com_list.params.codeid = fac.getcd(sco,'c1');
         sco.com_list.params.diarytype = 1;
