@@ -9,7 +9,7 @@ class Index extends Init
      * @return [type] [description]
     */
     public function index(){
-       return json(['code'=>123]);
+       // return json(['code'=>123]);
     } 
 
       public function test(){
