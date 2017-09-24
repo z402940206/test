@@ -26,10 +26,10 @@ class Init extends Controller
 
 
 
-if(!cache($v->uuid)){ 
-              echo json_encode(['code'=>'-1','msg'=>'登录过期']);
-              exit();
-         }
+// if(!cache($v->uuid)){ 
+//               echo json_encode(['code'=>'-1','msg'=>'登录过期']);
+//               exit();
+//          }
 
          
           // }else{
