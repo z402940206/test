@@ -64,7 +64,7 @@ $scope.we = '';
          YS('myjs');
          YS('myjsone.min');
           YS('form');
-      },1500);
+      },2000);
    setTimeout(function(){
         YS('laydate');
         YS('qqface');
