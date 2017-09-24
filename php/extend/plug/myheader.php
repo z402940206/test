@@ -11,6 +11,7 @@ use think\Request;
  	static public $originarr = [
 							 	'http://newtemp.yushan.com',
 							 	'http://chenchen.wms.cn',
+							 	'http://119.23.104.28'
 							 	];
  	static public function setheader()
  	{
