@@ -58,18 +58,20 @@ $scope.we = '';
         }); 
   });
    YS('swiper.min');
-  YS('form');
    YS('laypage');
    YS('content');
    setTimeout(function(){
-        YS('laydate');
          YS('myjs');
          YS('myjsone.min');
+          YS('form');
+      },1500);
+   setTimeout(function(){
+        YS('laydate');
         YS('qqface');
          YS('main2048');
          YS('jwe');
          YS('fullCalendar');
-      },2000);
+      },3000);
   //  YS('shCircleLoader',function() {
   //   $('#loader').shCircleLoader({color:'#2AA2D4'});
   // });
