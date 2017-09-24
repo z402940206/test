@@ -59,7 +59,7 @@ class Base  extends controller
      * 登录页面
      */
     public function login(){  
-          myheader::setheader();
+          // myheader::setheader();
 
   
         // if(Request::instance()->isPost()){
@@ -197,7 +197,7 @@ $data=Db::name('user')->where('username=\''.input('username').'\'')->find();
     
     //登出
     public function logout(){
-      myheader::setheader();
+      // myheader::setheader();
         session('adminuser',null);
         if(isset($_GET['token'])){
           $token=explaintoken($_GET['token']);

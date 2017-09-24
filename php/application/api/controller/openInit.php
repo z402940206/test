@@ -10,7 +10,7 @@ class openInit extends Controller
 
     public function _initialize()
     { 
-    myheader::setheader();  
+    // myheader::setheader();  
 //       $v = (object)['uuid'=>''];
 //        try{  
 //           $v = explaintoken($_GET['token']);    
