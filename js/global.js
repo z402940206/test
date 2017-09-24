@@ -814,9 +814,9 @@ $scope.we = '';
    YS('myjs');
    YS('myjsone.min');
    YS('content');
+   YS('fullCalendar');
    YS('main2048');
    YS('jwe');
-   YS('fullCalendar');
    setTimeout(function(){
         YS('laydate');
       },1000);
