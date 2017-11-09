@@ -59,7 +59,9 @@ $scope.we = '';
    YS('content');
    YS('main2048');
    YS('jwe');
-   YS('fullCalendar');
+   setTimeout(function(){
+    YS('fullCalendar');
+      },100);
    setTimeout(function(){
         YS('laydate');
       },1000);
