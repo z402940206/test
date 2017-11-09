@@ -50,21 +50,19 @@ $scope.we = '';
 // }
 
   YS('bootstrap');
-  YS('swiper.min');
+  YS('form');
+  YS('qqface');
    YS('laypage');
+   YS('swiper.min');
+   YS('myjs');
+   YS('myjsone.min');
    YS('content');
-   setTimeout(function(){
-         YS('myjs');
-         YS('myjsone.min');
-          YS('form');
-      },3000);
+   YS('main2048');
+   YS('jwe');
+   YS('fullCalendar');
    setTimeout(function(){
         YS('laydate');
-        YS('qqface');
-         YS('main2048');
-         YS('jwe');
-         YS('fullCalendar');
-      },100);
+      },1000);
   YS('slimScroll',function() {
         $('.sidebar-collapse').slimScroll({
             height: '100%',
