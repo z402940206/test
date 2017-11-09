@@ -821,7 +821,7 @@ $scope.we = '';
          YS('main2048');
          YS('jwe');
          YS('fullCalendar');
-      },2000);
+      },100);
   YS('slimScroll',function() {
         $('.sidebar-collapse').slimScroll({
             height: '100%',
