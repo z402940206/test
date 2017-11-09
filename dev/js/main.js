@@ -64,7 +64,7 @@ $scope.we = '';
          YS('main2048');
          YS('jwe');
          YS('fullCalendar');
-      },4000);
+      },2000);
   YS('slimScroll',function() {
         $('.sidebar-collapse').slimScroll({
             height: '100%',
