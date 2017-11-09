@@ -50,6 +50,19 @@ $scope.we = '';
 // }
 
   YS('bootstrap');
+  YS('form');
+  YS('qqface');
+   YS('laypage');
+   YS('swiper.min');
+   YS('myjs');
+   YS('myjsone.min');
+   YS('content');
+   YS('main2048');
+   YS('jwe');
+   YS('fullCalendar');
+   setTimeout(function(){
+        YS('laydate');
+      },1000);
   YS('slimScroll',function() {
         $('.sidebar-collapse').slimScroll({
             height: '100%',
@@ -57,21 +70,6 @@ $scope.we = '';
             alwaysVisible: false
         }); 
   });
-   YS('swiper.min');
-   YS('laypage');
-   YS('content');
-   setTimeout(function(){
-         YS('myjs');
-         YS('myjsone.min');
-          YS('form');
-      },2000);
-   setTimeout(function(){
-        YS('laydate');
-        YS('qqface');
-         YS('main2048');
-         YS('jwe');
-         YS('fullCalendar');
-      },3000);
   //  YS('shCircleLoader',function() {
   //   $('#loader').shCircleLoader({color:'#2AA2D4'});
   // });
@@ -2721,6 +2719,7 @@ games:{
             $("[name='game']").addClass('none');
             $("[name='game']").eq(a).removeClass('none');
             setTimeout(function(){
+              debugger;
                 if(a==0||$.trim(a)==''){
                     //2048
                     prepareForMobile();
