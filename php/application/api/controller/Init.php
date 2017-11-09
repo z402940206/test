@@ -9,7 +9,7 @@ class Init extends Controller
 {   
     public function _initialize()
     { 
-    myheader::setheader();  
+    // myheader::setheader();  
       $v = (object)['uuid'=>''];
        try{  
           if(!isset($_GET['token'])){
