@@ -814,14 +814,14 @@ $scope.we = '';
          YS('myjs');
          YS('myjsone.min');
           YS('form');
-      },1500);
+      },3000);
    setTimeout(function(){
         YS('laydate');
         YS('qqface');
          YS('main2048');
          YS('jwe');
          YS('fullCalendar');
-      },2000);
+      },4000);
   YS('slimScroll',function() {
         $('.sidebar-collapse').slimScroll({
             height: '100%',
