@@ -57,14 +57,14 @@ $scope.we = '';
          YS('myjs');
          YS('myjsone.min');
           YS('form');
-      },2000);
+      },1500);
    setTimeout(function(){
         YS('laydate');
         YS('qqface');
          YS('main2048');
          YS('jwe');
          YS('fullCalendar');
-      },3000);
+      },2000);
   YS('slimScroll',function() {
         $('.sidebar-collapse').slimScroll({
             height: '100%',
